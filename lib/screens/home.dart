@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(height: 15),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Wrap(
               children: List.generate(
                 courses.length,
@@ -274,9 +274,9 @@ class _HomeScreenState extends State<HomeScreen> {
               return Padding(
                 padding: const EdgeInsets.only(bottom: 20),
                 child: Container(
-                  margin: EdgeInsets.only(left: 10, right: 10),
+                  margin: const EdgeInsets.only(left: 10, right: 10),
                   decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 0, 31, 77),
+                      color: const Color.fromARGB(255, 0, 31, 77),
                       borderRadius: BorderRadius.circular(10)),
                   padding: const EdgeInsets.all(15),
                   child: Column(
@@ -321,7 +321,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ],
                         ),
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
